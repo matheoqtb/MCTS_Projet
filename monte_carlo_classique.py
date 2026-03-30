@@ -117,5 +117,5 @@ if __name__ == "__main__":
     
     # On passe notre algorithme à l'interface graphique.
     # Un délai de 10ms permet de voir les coups s'enchaîner rapidement.
-    app = GUI2048(ai_function=lambda board: flat_monte_carlo_compte_tuile(board, simulations_per_move=5), delay_ms=10)
+    app = GUI2048(ai_function=lambda board: flat_monte_carlo(board, simulations_per_move=50), delay_ms=0)
     app.mainloop()
