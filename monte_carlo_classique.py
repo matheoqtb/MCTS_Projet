@@ -109,7 +109,7 @@ def flat_monte_carlo_compte_tuile(board, simulations_per_move=40):
             
     return best_move
 
-
+ 
 
 
 if __name__ == "__main__":

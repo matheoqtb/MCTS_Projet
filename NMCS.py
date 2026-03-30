@@ -86,7 +86,7 @@ def IA_NMCS_Level_1(board):
     # Level 1 : Regarde 1 coup en avance avec l'arbre, puis fait 10 rollouts par branche.
     meilleur_coup, score = nmcs(board, level=1, simulations_per_move=15)
     return meilleur_coup
-
+ 
 def IA_NMCS_Level_2(board):
     """Lance un NMCS de niveau 2"""
     meilleur_coup, score = nmcs(board, level=2, simulations_per_move=5)
